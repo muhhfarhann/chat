@@ -29,7 +29,8 @@ class Auth extends CI_Controller {
                     'logged_in'    => TRUE,
                     'id'           => $user->id,
                     'username'     => $user->username,
-                    'display_name' => $user->display_name
+                    'display_name' => $user->display_name,
+                    'role'         => $user->role //simpan di session
                 ]);
                 $this->session->set_flashdata('success', 'Login success!');
                 return redirect('auth/index');

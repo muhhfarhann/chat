@@ -10,7 +10,7 @@ application/logs/*
 *application/node
 *application/*/.htaccess
 node_modules
-socket-io
+socket-io/node_modules
 *htaccess
 
 index.php
